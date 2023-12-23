@@ -1,0 +1,50 @@
+@viewport {
+  width: device-width;
+}
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+:root {
+  font-family: "Arial", sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  /* margin-top: 0; */
+}
+body {
+  background-color: #fff;
+}
+main {
+  color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 3rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+ul {
+  list-style-type: none;
+}
+li + li {
+  margin-top: 40px;
+}
+li label {
+  margin-left: 40px;
+}
+input[type="checkbox"] {
+  transform: scale(2.5);
+  padding: 10px;
+}
+li {
+  /* border: 1px solid black; */
+  padding-top: 2px;
+}
+#fast,
+#cheap,
+#good {
+}
